@@ -1,0 +1,95 @@
+
+.white-color{
+  color:white;
+
+  font-size:20px;
+}
+.black-color{
+  
+  color:black;
+  text-align: center;
+   display: inline-block;
+
+  font-size:30px;
+
+}
+.font-size{
+  font-size: 15px;
+}
+.font-size1{
+  font-size: 18px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.font-size2{
+  font-size: 40px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.bgimg {
+  width: auto;
+  object-fit: fill;
+  height:650px;
+}
+.bgimg1{
+  background-size:100% 106%;
+  
+  
+}
+
+.imgsize{
+  height: 50px;
+  width:auto;
+}
+.click{
+  color: red;
+}
+.d-flex div{
+  padding: 1rem;
+
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+}
+.brand{
+  
+  text-decoration:None;
+}
+html, body {
+max-width: 100%;
+overflow-x: hidden;
+}
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.center2{
+  text-align:center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:40px;
+  color:black;
+}
+.whyimg{
+  height:80px;
+  width:80px;
+}
+@media only screen and (min-Width:992px){
+  
+  .whybg2{
+    background-image:url("https://cdn.glitch.com/457f257d-f55e-43fb-b9e6-3fbfc4029c84%2Fwhybg.jpeg?v=1622370091791");
+    background-size:100% 120%;
+  }
+} 
+@media only screen and (max-Width:991px){
+  
+.abtus{
+    font-size:35px;
+    
+  }
+  
+  .whybg3{
+    background-image:url("https://cdn.glitch.com/457f257d-f55e-43fb-b9e6-3fbfc4029c84%2Fwhybg.jpg?v=1622359089356");
+    background-size:100% 120%;
+  }
+}
